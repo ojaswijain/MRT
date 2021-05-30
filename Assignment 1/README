@@ -1,1 +1,10 @@
-test
+Python code set using openCV to perform basic functions on images:
+Gaussian Blur
+Bilateral filter
+Median blur
+Naive B&W filter
+
+Also included basic edge detection algorithms:
+Sobel
+Canny(using documentation as reference)
+Laplace
