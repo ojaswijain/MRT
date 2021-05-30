@@ -7,7 +7,7 @@ Created on Thu May 13 23:54:21 2021
 
 import cv2 as cv
 import sys
-img = cv.imread('aruco.jpg')
+img = cv.imread(sys.argv[1])
 if img is None:
     sys.exit("Could not read the image.")
 img = cv.resize(img, (480,340))
