@@ -17,9 +17,6 @@ def main(argv):
     gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
     cv.namedWindow(window_name, cv.WINDOW_AUTOSIZE)
     dst = cv.Laplacian(gray, ddepth, ksize=kernel_size)
-    # [laplacian]
-    # [convert]
-    # converting back to uint8
     abs_dst = cv.convertScaleAbs(dst)
     cv.imshow(window_name, abs_dst)
     cv.waitKey(0)
