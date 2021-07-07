@@ -1,0 +1,5 @@
+Basic overview of tools like loss functions, activation functions, normalisation, pooling layers, etc.
+A simple implementation of a CNN architecture: Cat and Dog classifier.
+Naive code for some loss functions.
+A real time object tracker which uses openCV classes to create contour boxes.
+Briefing about low light conditions.
