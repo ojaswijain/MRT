@@ -26,7 +26,7 @@ while(True):
 
         if len(areas) < 1:
             cv.imshow('Frame',frame)
-            if cv.waitKey(1) & 0xFF == ord('q'):
+            if cv.waitKey(1) & 0xFF == ord('x'):
                 break
             continue
  
@@ -39,7 +39,7 @@ while(True):
          
         cv.imshow('Frame',frame)
  
-        if cv.waitKey(1) & 0xFF == ord('q'):
+        if cv.waitKey(1) & 0xFF == ord('x'):
             break
  
 cap.release()
